@@ -1,7 +1,7 @@
-# Realtime Chat Application (MERN Stack Backend)
+# Realtime Chat Application (MERN Stack Frontend)
 
 ### Introduction
-This repository contains the Backend for a Realtime Chat Application built using the MERN stack. The app features real-time communication, private and group chats, and other modern messaging functionalities. 
+This repository contains the Frontend for a Realtime Chat Application built using the MERN stack. The app features real-time communication, private and group chats, and other modern messaging functionalities. 
 
 ### Feature
 - JWT Authentication-Secure user authentication using JSON Web Tokens.
@@ -33,11 +33,11 @@ password: Prachi888
 ### How to use
 1. Clone the repo
     ```
-    git clone https://github.com/prachi888/ConvoMate-frontend.git
+    git clone https://github.com/ps8888/ConvoMate-frontend-.git
     ```
 2. Enter the directory
     ```
-    cd realchat-backend
+    cd ConvoMate-frontend-
     ```
 3. Install dependencies
     ```
@@ -45,9 +45,9 @@ password: Prachi888
     ```
 4. Change .env.example file
    - change file name to .env
-   - go to [MongoDB Atlas](https://www.mongodb.com/atlas/database) to create a cluster and change the MONGO_URI  
-   - Set the CLIENT_URL to your local frontend address (e.g., http://localhost:3000 if the frontend runs on port 3000).
-   - Generate random secrets for ACCESS_TOKEN_SECRET, REFRESH_TOKEN_SECRET, and COOKIE_SIGNATURE.
+   - Set the VITE_SERVER_URL to the deployed backend URL from Render (or whichever service you used to deploy the backend).
+   - VITE_AVATAR_KEY: Your avatar key for user avatars.
+
 
 5. Run the app   
     ```
